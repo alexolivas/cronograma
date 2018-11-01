@@ -1,0 +1,44 @@
+{
+  "name": "timeline-component",
+  "version": "0.0.1",
+  "description": "A responsive react timeline",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexolivas/timeline-component.git"
+  },
+  "keywords": [
+    "react",
+    "react-timeline",
+    "timeline",
+    "time",
+    "line",
+    "event"
+  ],
+  "author": "Alex Olivas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexolivas/timeline-component/issues"
+  },
+  "homepage": "https://github.com/alexolivas/timeline-component#readme",
+  "dependencies": {
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "react-scripts": "2.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
