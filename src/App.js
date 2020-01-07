@@ -1,25 +1,25 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import TimeLine from './Timeline';
+import Event from './Event';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+          <TimeLine>
+            <Event>
+              <h2>2020</h2>
+              Lorem ipsum
+            </Event>
+            <Event right>
+              <h2>2019</h2>
+              Lorem ipsum
+            </Event>
+            <Event>
+              <h2>2018</h2>
+              Lorem ipsum
+            </Event>
+          </TimeLine>
       </div>
     );
   }
