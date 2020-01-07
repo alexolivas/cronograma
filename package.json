@@ -1,11 +1,11 @@
 {
-  "name": "timeline-component",
+  "name": "cronograma",
   "version": "0.0.1",
   "description": "A responsive react timeline",
   "private": false,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alexolivas/timeline-component.git"
+    "url": "git+https://github.com/alexolivas/cronograma.git"
   },
   "keywords": [
     "react",
@@ -18,10 +18,11 @@
   "author": "Alex Olivas",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/alexolivas/timeline-component/issues"
+    "url": "https://github.com/alexolivas/cronograma/issues"
   },
-  "homepage": "https://github.com/alexolivas/timeline-component#readme",
+  "homepage": "https://github.com/alexolivas/cronograma#readme",
   "dependencies": {
+    "classnames": "^2.2.6",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
     "react-scripts": "3.1.2"
