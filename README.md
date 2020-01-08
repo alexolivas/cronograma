@@ -20,7 +20,7 @@ npm install cronograma
 
 ## Examples
 
-[![storybook examples](https://alexolivas.github.io/cronograma)](storybook examples)
+Click here to see more detailed [examples](https://alexolivas.github.io/cronograma)
 
 ## Contributing
 
