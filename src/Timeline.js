@@ -2,7 +2,7 @@ import classNames from 'classnames';
 import React, { Component } from 'react';
 import './Timeline.css';
 
-export default class TimeLine extends Component {
+export default class Timeline extends Component {
     render() {
         return (
             <div className={ classNames("cronograma-timeline") }>
