@@ -15,7 +15,7 @@ A responsive react timeline component.
 First install cronograma:
 
 ```sh
-npm install cronograma
+npm install cronograma-timeline
 ```
 
 ## Examples
