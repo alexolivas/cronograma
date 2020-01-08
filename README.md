@@ -21,4 +21,4 @@ npm install cronograma
 
 Contributions to this project are welcomed.
 
-- Read the [contributing guide](CONTRIBUTING.md) to get started.
+- Read the [contributing guide](docs/CONTRIBUTING.md) to get started.
