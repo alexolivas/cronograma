@@ -15,6 +15,9 @@
 .out
 out*
 
+# nyc test coverage reports
+.nyc_output
+
 # misc
 .DS_Store
 .env.local

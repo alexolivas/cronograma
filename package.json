@@ -35,7 +35,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+	"test": "react-scripts test",
+	"test-coverage": "nyc react-scripts test",
     "lint": "eslint '**/*.js' --ignore-pattern node_modules/",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9001 -c .storybook",
@@ -58,6 +59,7 @@
     "babel-loader": "^8.0.4",
     "eslint": "^6.8.0",
     "jest": "^24.9.0",
+    "nyc": "^15.0.0",
     "semver": "^7.1.1"
   }
 }
