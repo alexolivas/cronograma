@@ -36,6 +36,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "lint": "eslint '**/*.js' --ignore-pattern node_modules/",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9001 -c .storybook",
     "build-storybook": "build-storybook -c .storybook -o .out",
@@ -55,6 +56,7 @@
     "@storybook/storybook-deployer": "^2.8.1",
     "babel-core": "^6.26.3",
     "babel-loader": "^8.0.4",
+    "eslint": "^6.8.0",
     "jest": "^24.9.0",
     "semver": "^7.1.1"
   }
