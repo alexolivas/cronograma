@@ -36,6 +36,7 @@ jobs:
                 command: npm run test-coverage
                 store_test_results:
                     path: coverage
+                    destination: .coverage
 
             # Use coveralls orb to publish the report
             - coveralls/upload
