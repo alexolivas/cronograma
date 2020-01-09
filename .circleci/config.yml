@@ -9,7 +9,6 @@ jobs:
         working_directory: ~/cronograma
         docker:
             - image: circleci/node:10.16.3 # ...with this image as the primary container; this is where all `steps` will run
-            - image: mongo:4.2.0 # and this image as the secondary service container
         steps:
             - checkout
             - run:
@@ -35,4 +34,8 @@ jobs:
             - run:
                 name: "Run Jest and Collect Coverage Reports"
                 command: npm run test-coverage
+                store_test_results:
+                    path: coverage
+
+            # Use coveralls orb to publish the report
             - coveralls/upload
