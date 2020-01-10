@@ -2,13 +2,19 @@
 
 [![Build Status](https://travis-ci.com/alexolivas/cronograma.svg?branch=master)](https://travis-ci.com/alexolivas/cronograma)
 [![Coverage Status](https://coveralls.io/repos/github/alexolivas/cronograma/badge.svg?branch=master)](https://coveralls.io/github/alexolivas/cronograma?branch=master)
-[![npm version](https://badge.fury.io/js/cronograma-timeline.svg)](https://badge.fury.io/js/cronograma-timeline)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/test_coverage)](https://codeclimate.com/github/codeclimate/codeclimate/test_coverage)
+[![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
+[![Known Vulnerabilities](https://snyk.io/test/github/alexolivas/cronograma/badge.svg?targetFile=package.json)](https://snyk.io/test/github/alexolivas/cronograma?targetFile=package.json)  
 ![David](https://img.shields.io/david/alexolivas/cronograma)
 ![David](https://img.shields.io/david/dev/alexolivas/cronograma)
+[![Greenkeeper badge](https://badges.greenkeeper.io/alexolivas/cronograma.svg)](https://greenkeeper.io/)  
+
+[![npm version](https://badge.fury.io/js/cronograma-timeline.svg)](https://badge.fury.io/js/cronograma-timeline)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://jeremy.mit-license.org)
-[![Greenkeeper badge](https://badges.greenkeeper.io/alexolivas/cronograma.svg)](https://greenkeeper.io/)
 
 A responsive react timeline component.
+
+![cronograma timeline component](https://cronograma-timeline.s3.amazonaws.com/default-timeline.png "Cronograma")
 
 ## Table of contents
 
