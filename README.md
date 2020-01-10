@@ -1,6 +1,6 @@
 # Cronograma
 
-[![CircleCI](https://circleci.com/gh/alexolivas/cronograma/tree/develop.svg?style=svg)](https://circleci.com/gh/alexolivas/cronograma/tree/develop)
+[![Build Status](https://travis-ci.com/alexolivas/cronograma.svg?branch=develop)](https://travis-ci.com/alexolivas/cronograma)
 [![Coverage Status](https://coveralls.io/repos/github/alexolivas/cronograma/badge.svg?branch=develop)](https://coveralls.io/github/alexolivas/cronograma?branch=develop)
 [![npm version](https://badge.fury.io/js/cronograma-timeline.svg)](https://badge.fury.io/js/cronograma-timeline)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://jeremy.mit-license.org)
