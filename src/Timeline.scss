@@ -26,7 +26,15 @@ body {
     left: 50%;
     margin-left: -3px;
 }
-  
+
+.orientation-left {
+
+}
+ 
+.orientation-right {
+    
+}
+
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
     /* Place the timeline to the left */
