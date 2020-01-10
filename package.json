@@ -1,6 +1,6 @@
 {
   "name": "cronograma-timeline",
-  "version": "0.0.1-2",
+  "version": "0.0.1-alpha.0",
   "description": "A responsive react timeline",
   "private": false,
   "repository": {
@@ -34,9 +34,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-	"build": "react-scripts build",
-	"test": "jest",
-	"test:watch": "jest --watch --coverage",
+    "build": "react-scripts build",
+    "test": "jest",
+    "test:watch": "jest --watch --coverage",
     "coveralls": "cat coverage/lcov.info | coveralls",
     "lint": "eslint '**/*.js' --ignore-pattern node_modules/",
     "eject": "react-scripts eject",
@@ -45,17 +45,17 @@
     "deploy-storybook": "storybook-to-ghpages"
   },
   "jest": {
-	"verbose": true,
+    "verbose": true,
     "setupFilesAfterEnv": [
-		"<rootDir>src/setupTests.js"
-	],
-	"collectCoverage": true,
-	"collectCoverageFrom": [
-		"**/*.js",
-		"!setupTests.js",
-		"!babel.config.js",
-		"!/node_modules/"
-	],
+      "<rootDir>src/setupTests.js"
+    ],
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "**/*.js",
+      "!setupTests.js",
+      "!babel.config.js",
+      "!/node_modules/"
+    ],
     "moduleNameMapper": {
       "\\.(css|less|scss|png)$": "identity-obj-proxy"
     }
