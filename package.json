@@ -46,6 +46,9 @@
   },
   "jest": {
 	"verbose": true,
+    "setupFilesAfterEnv": [
+		"<rootDir>src/setupTests.js"
+	],
 	"collectCoverage": true,
 	"collectCoverageFrom": [
 		"**/*.js",
