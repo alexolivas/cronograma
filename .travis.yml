@@ -2,6 +2,13 @@ language: node_js
 node_js:
     - 13
 
+branches:
+    only:
+        - master
+		- develop
+		- /^Release.*$/
+        - /^Hotfix.*$/
+
 cache:
     directories:
         - node_modules
