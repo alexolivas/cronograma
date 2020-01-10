@@ -49,11 +49,15 @@
     "setupFilesAfterEnv": [
       "<rootDir>src/setupTests.js"
     ],
-    "collectCoverage": true,
+	"collectCoverage": true,
+	"coverageThreshold": {
+		"global": {
+		  "functions": 95,
+		  "lines": 95
+		}
+	},
     "collectCoverageFrom": [
-      "**/*.js",
-      "!setupTests.js",
-      "!babel.config.js",
+      "<rootDir>/src/**/*.js",
       "!/node_modules/"
     ],
     "moduleNameMapper": {
