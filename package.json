@@ -34,9 +34,10 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "jest --watch --coverage",
-    "coveralls": "jest --coverage && cat ./tests/coverage/lcov.info | coveralls",
+	"build": "react-scripts build",
+	"test": "jest",
+	"test:watch": "jest --watch --coverage",
+    "coveralls": "cat coverage/lcov.info | coveralls",
     "lint": "eslint '**/*.js' --ignore-pattern node_modules/",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9001 -c .storybook",
@@ -45,9 +46,11 @@
   },
   "jest": {
 	"verbose": true,
+	"collectCoverage": true,
 	"collectCoverageFrom": [
 		"**/*.js",
-		"!data/keyMap.js",
+		"!setupTests.js",
+		"!babel.config.js",
 		"!/node_modules/"
 	],
     "moduleNameMapper": {
