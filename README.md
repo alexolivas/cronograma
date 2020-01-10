@@ -2,9 +2,10 @@
 
 [![Build Status](https://travis-ci.com/alexolivas/cronograma.svg?branch=master)](https://travis-ci.com/alexolivas/cronograma)
 [![Coverage Status](https://coveralls.io/repos/github/alexolivas/cronograma/badge.svg?branch=master)](https://coveralls.io/github/alexolivas/cronograma?branch=master)
-[![npm version](https://badge.fury.io/js/cronograma-timeline.svg)](https://badge.fury.io/js/cronograma-timeline)
+[![Known Vulnerabilities](https://snyk.io/test/github/alexolivas/cronograma/badge.svg?targetFile=package.json)](https://snyk.io/test/github/alexolivas/cronograma?targetFile=package.json)
 ![David](https://img.shields.io/david/alexolivas/cronograma)
-![David](https://img.shields.io/david/dev/alexolivas/cronograma)
+![David](https://img.shields.io/david/dev/alexolivas/cronograma)  
+[![npm version](https://badge.fury.io/js/cronograma-timeline.svg)](https://badge.fury.io/js/cronograma-timeline)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://jeremy.mit-license.org)
 [![Greenkeeper badge](https://badges.greenkeeper.io/alexolivas/cronograma.svg)](https://greenkeeper.io/)
 
