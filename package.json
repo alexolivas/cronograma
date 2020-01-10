@@ -35,8 +35,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-	"test": "jest --watch",
-	"test-coverage": "jest --coverage --coverageReporters=text-lcov",
+    "test": "jest --watch --coverage",
+    "coveralls": "jest --coverage && cat ./tests/coverage/lcov.info | coveralls",
     "lint": "eslint '**/*.js' --ignore-pattern node_modules/",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9001 -c .storybook",
@@ -44,10 +44,10 @@
     "deploy-storybook": "storybook-to-ghpages"
   },
   "jest": {
-	"verbose": true,
-	"moduleNameMapper": {
-		"\\.(css|less|scss|png)$": "identity-obj-proxy"
-	}
+    "verbose": true,
+    "moduleNameMapper": {
+      "\\.(css|less|scss|png)$": "identity-obj-proxy"
+    }
   },
   "eslintConfig": {
     "extends": "react-app"
