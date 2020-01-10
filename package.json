@@ -1,6 +1,6 @@
 {
   "name": "cronograma-timeline",
-  "version": "0.0.1-2",
+  "version": "0.0.1-alpha.0",
   "description": "A responsive react timeline",
   "private": false,
   "repository": {
@@ -36,11 +36,30 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "jest",
+    "test:watch": "jest --watch --coverage",
+    "coveralls": "cat coverage/lcov.info | coveralls",
+    "lint": "eslint '**/*.js' --ignore-pattern node_modules/",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9001 -c .storybook",
     "build-storybook": "build-storybook -c .storybook -o .out",
     "deploy-storybook": "storybook-to-ghpages"
+  },
+  "jest": {
+    "verbose": true,
+    "setupFilesAfterEnv": [
+      "<rootDir>src/setupTests.js"
+    ],
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "**/*.js",
+      "!setupTests.js",
+      "!babel.config.js",
+      "!/node_modules/"
+    ],
+    "moduleNameMapper": {
+      "\\.(css|less|scss|png)$": "identity-obj-proxy"
+    }
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -52,10 +71,17 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-react": "^7.7.4",
     "@storybook/react": "^5.2.8",
     "@storybook/storybook-deployer": "^2.8.1",
     "babel-core": "^6.26.3",
+    "babel-jest": "^24.9.0",
     "babel-loader": "^8.0.4",
+    "coveralls": "^3.0.9",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "eslint": "^6.8.0",
     "jest": "^24.9.0",
     "semver": "^7.1.1"
   }
