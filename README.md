@@ -14,6 +14,8 @@
 
 A responsive react timeline component.
 
+![cronograma timeline component](https://cronograma-timeline.s3.amazonaws.com/default-timeline.png "Cronograma")
+
 ## Table of contents
 
 - [Getting Started](#getting-started)
