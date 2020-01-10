@@ -57,7 +57,8 @@
 		}
 	},
     "collectCoverageFrom": [
-      "<rootDir>/src/**/*.js",
+	  "<rootDir>/src/**/*.js",
+	  "!<rootDir>/src/**/*.stories.js",
       "!/node_modules/"
     ],
     "moduleNameMapper": {
