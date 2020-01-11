@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+  
+/* Set a background color */
+// body {
+//     // background-color: #474e5d;
+//     font-family: Helvetica, sans-serif;
+// }
+
+/* The actual timeline (the vertical ruler) */
+.cronograma-timeline {
+    position: relative;
+    // max-width: 1200px; /* TODO: Make this dynamic */
+    margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.cronograma-timeline {
+	&:after {
+		content: '';
+		position: absolute;
+		width: 6px;
+		background-color: white;
+		top: 0;
+		bottom: 0;
+	}
+}
+.orientation-left {
+	&:after {
+		left: 5%; // This calculation is weird I need to fix this (used in conjunction with .left-timeline)
+		margin-left: -2px;
+	}
+}
+.orientation-center {
+	&:after {
+		left: 50%;
+		margin-left: -3px;
+	}
+}
+.orientation-right {
+	&:after {
+		left: 95%; // This calculation is weird I need to fix this (used in conjunction with .right-timeline)
+		margin-left: -2px;
+	}
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+    /* Place the timeline to the left */
+    .cronograma-timeline::after {
+        left: 31px;
+    }
+}
