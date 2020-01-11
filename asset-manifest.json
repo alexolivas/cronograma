@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/alexolivas/cronograma/main.css",
+    "main.js": "/alexolivas/cronograma/main.4300238085d04dd5caac.bundle.js",
+    "main.css.map": "/alexolivas/cronograma/main.css.map",
+    "main.js.map": "/alexolivas/cronograma/main.4300238085d04dd5caac.bundle.js.map",
+    "runtime~main.js": "/alexolivas/cronograma/runtime~main.4300238085d04dd5caac.bundle.js",
+    "runtime~main.js.map": "/alexolivas/cronograma/runtime~main.4300238085d04dd5caac.bundle.js.map",
+    "vendors~main.js": "/alexolivas/cronograma/vendors~main.4300238085d04dd5caac.bundle.js",
+    "vendors~main.js.map": "/alexolivas/cronograma/vendors~main.4300238085d04dd5caac.bundle.js.map",
+    "iframe.html": "/alexolivas/cronograma/iframe.html",
+    "precache-manifest.f3ec4e7fa2bc136fd3a5360f29581a58.js": "/alexolivas/cronograma/precache-manifest.f3ec4e7fa2bc136fd3a5360f29581a58.js",
+    "service-worker.js": "/alexolivas/cronograma/service-worker.js"
+  },
+  "entrypoints": [
+    "runtime~main.4300238085d04dd5caac.bundle.js",
+    "vendors~main.4300238085d04dd5caac.bundle.js",
+    "main.css",
+    "main.4300238085d04dd5caac.bundle.js"
+  ]
+}
