@@ -12,7 +12,7 @@
 [![npm version](https://badge.fury.io/js/cronograma-timeline.svg)](https://badge.fury.io/js/cronograma-timeline)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://jeremy.mit-license.org)
 
-A responsive react timeline component.
+A customizable and responsive vertical timeline component built for react.
 
 ![cronograma timeline component](https://cronograma-timeline.s3.amazonaws.com/default-timeline.png "Cronograma")
 

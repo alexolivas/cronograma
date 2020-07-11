@@ -1,12 +1,18 @@
 import classNames from "classnames";
 import PropTypes from "prop-types";
 import React, { Component } from "react";
+// import { createStore, applyMiddleware, compose } from "redux";
 import "./Timeline.scss";
 
 /**
  * Use `Timeline` to create a series of events
  */
 export default class Timeline extends Component {
+
+	// constructor(props) {
+	// 	super(props);
+		
+	// }
 
 	render() {
 		const { orientation } = this.props;
