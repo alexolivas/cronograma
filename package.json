@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/alexolivas/cronograma#readme",
   "dependencies": {
-    "classnames": "^2.2.6",
+    "classnames": "^2.3.1",
     "node-sass": "^4.13.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
